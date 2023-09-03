@@ -17,6 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_spaced.mk
+     $(LOCAL_DIR)/omni_spaced.mk
 
-COMMON_LUNCH_CHOICES := twrp_spaced-eng
+COMMON_LUNCH_CHOICES := omni_spaced-eng

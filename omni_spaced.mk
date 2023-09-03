@@ -28,10 +28,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/realme/spaced/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_DEVICE := spaced
-PRODUCT_NAME := twrp_spaced
+PRODUCT_NAME := omni_spaced
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 8i
 PRODUCT_MANUFACTURER := Realme
