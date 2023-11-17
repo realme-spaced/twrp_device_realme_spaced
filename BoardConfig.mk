@@ -151,3 +151,7 @@ TW_INCLUDE_LOGICAL := my_product my_engineering my_company my_carrier my_region 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := "/sys/class/flashlight"
